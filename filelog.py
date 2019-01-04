@@ -19,6 +19,7 @@ import queue
 
 class log():
     def __init__(self, path):
+        self.wechat = wechat
         self.path = path
         self.checkdir(path)
         self.queue = queue.Queue()
